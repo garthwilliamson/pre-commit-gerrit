@@ -1,0 +1,7 @@
+---
+- id: gerrit-commit-msg
+  name: Gerrit Commit Message Changeid
+  description: Add the changeid to commit messages for gerrit review
+  entry: pre_commit_hooks/commit-msg
+  language: script
+  stages: [commit-msg]
