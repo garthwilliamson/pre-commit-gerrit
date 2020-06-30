@@ -10,7 +10,7 @@ See [Pre-commit documentation](https://pre-commit.com/#adding-pre-commit-plugins
 
 ```yaml
 - repo: https://github.com/garthwilliamson/pre-commit-gerrit.git
-  rev: 0.1.0
+  rev: v0.1.1
   hooks:
   - id: gerrit-commit-msg
 ```
